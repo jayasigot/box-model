@@ -1,0 +1,41 @@
+/*font-family: 'Arimo', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+body {
+    font-family: 'Arimo', sans-serif;
+    background-image: url(../img/cartographer.png);/*by default background-image is placed in the top left corner of an element, and repeated vertically and horizontally*/
+    background-repeat: repeat-x;/*no-repeat, repeat-x, repeat-y*/
+    background-position: 10% 75%;/*center, right center, 50px 100px*/
+    background-attachment: fixed;/*gives a paralax look*/
+    background-color: #eee;
+    /*margin and padding shortforms
+    1. margin: 10px; add margin to all 4 side
+    2. margin: 10px 20px; 10px top and bottom,   20px left and right sides
+    3. margin: 10px 20px 30px; 10px is the top, 20px left and right side, 30px bottom
+    4. margin: 10px 20px 30px 40px; top, right, bottom, left - clockwise from the top
+    */
+    margin: 0;
+}
+h1 {
+    background-color: rgba(242, 190, 190, .7);
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline overline line-through;
+}
+div {
+    max-width: 700px;
+    margin: auto;
+}
+main {
+    display: block; /*for IE*/
+}
+img {
+    max-width: 100%;/*to make image responsive*/
+    height: auto; /*resizes height in proportion*/
+}
+nav ul { /*only the ul in my nav*/
+    list-style: none;
+}
+.highlight {/*any element with the class of highlight, class can be used multiple times*/
+    background-color: lightgoldenrodyellow;
+}
