@@ -39,3 +39,7 @@ nav ul { /*only the ul in my nav*/
 .highlight {/*any element with the class of highlight, class can be used multiple times*/
     background-color: lightgoldenrodyellow;
 }
+
+footer {
+    background-color: lavender;
+}
